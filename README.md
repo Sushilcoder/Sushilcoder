@@ -12,7 +12,7 @@
 
 - 📫 How to reach me **girisushil2005@gmail.com**
 
-- ⚡ Fun fact **I'm not immersed in code, you'll find me honing.**
+- ⚡ Fun fact **When I'm not immersed in code, you'll find me honing.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
