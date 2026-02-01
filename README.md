@@ -24,5 +24,3 @@
 
 
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sushilcoder&show_icons=true&locale=en" alt="sushilcoder" /></p>
-
