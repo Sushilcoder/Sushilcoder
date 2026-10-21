@@ -1,0 +1,16 @@
+FONT LICENSES
+
+Inter Display
+- Source family: Inter, by Rasmus Andersson and contributors.
+- License: SIL Open Font License 1.1.
+- Project: https://github.com/rsms/inter
+- This package embeds a WOFF2 subset/converted font in SVG data URIs.
+
+Go Mono
+- Source family: Go Mono, distributed with the Go project.
+- License: BSD-style license.
+- Project: https://go.dev/
+- This package embeds a WOFF2-converted font in SVG data URIs.
+
+The font binaries are included under assets/fonts for convenience. The SVGs also embed
+their font data inline so the images make no external asset requests.

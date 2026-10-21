@@ -1,0 +1,135 @@
+{
+  "rendering": {
+    "browser": "Chromium",
+    "timeline_seconds_rendered": [
+      0,
+      2,
+      5,
+      9,
+      13
+    ],
+    "render_modes": [
+      "direct SVG at timeline position",
+      "animation-stripped SVG",
+      "SVG as an img element"
+    ],
+    "screenshots_directory": "verification/ (screenshots omitted from upload ZIP to keep it compact)"
+  },
+  "svg_checks": [
+    {
+      "file": "about-life.svg",
+      "svg_root": true,
+      "has_title_and_description": true,
+      "no_script_or_foreignObject": true,
+      "no_external_http_assets": true,
+      "reduced_motion_handling": true,
+      "css_entrances_use_fill_mode_both": true,
+      "smil_animation_elements": 6,
+      "inline_png_data_uris": false,
+      "inline_woff2_data_uris": true,
+      "size_bytes": 333567
+    },
+    {
+      "file": "connect.svg",
+      "svg_root": true,
+      "has_title_and_description": true,
+      "no_script_or_foreignObject": true,
+      "no_external_http_assets": true,
+      "reduced_motion_handling": true,
+      "css_entrances_use_fill_mode_both": true,
+      "smil_animation_elements": 3,
+      "inline_png_data_uris": true,
+      "inline_woff2_data_uris": true,
+      "size_bytes": 2250106
+    },
+    {
+      "file": "hero.svg",
+      "svg_root": true,
+      "has_title_and_description": true,
+      "no_script_or_foreignObject": true,
+      "no_external_http_assets": true,
+      "reduced_motion_handling": true,
+      "css_entrances_use_fill_mode_both": true,
+      "smil_animation_elements": 5,
+      "inline_png_data_uris": true,
+      "inline_woff2_data_uris": true,
+      "size_bytes": 2992429
+    },
+    {
+      "file": "id-dashboard.svg",
+      "svg_root": true,
+      "has_title_and_description": true,
+      "no_script_or_foreignObject": true,
+      "no_external_http_assets": true,
+      "reduced_motion_handling": true,
+      "css_entrances_use_fill_mode_both": true,
+      "smil_animation_elements": 2,
+      "inline_png_data_uris": true,
+      "inline_woff2_data_uris": true,
+      "size_bytes": 2993244
+    },
+    {
+      "file": "stack.svg",
+      "svg_root": true,
+      "has_title_and_description": true,
+      "no_script_or_foreignObject": true,
+      "no_external_http_assets": true,
+      "reduced_motion_handling": true,
+      "css_entrances_use_fill_mode_both": true,
+      "smil_animation_elements": 0,
+      "inline_png_data_uris": false,
+      "inline_woff2_data_uris": true,
+      "size_bytes": 333774
+    }
+  ],
+  "source_image_alpha": {
+    "id.png": {
+      "size": [
+        1283,
+        1226
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    "right_pointing.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  },
+  "responsive_preview": {
+    "tested_viewport_width": 375,
+    "document_width": 375,
+    "horizontal_overflow": false,
+    "all_five_svg_img_elements_loaded": true,
+    "non_data_external_requests": 0
+  },
+  "readme_checks": {
+    "all_five_relative_paths_with_v1": true,
+    "clickable_social_links": true,
+    "all_three_project_repositories": true,
+    "no_contribution_city_section": true
+  },
+  "font_licenses_included": [
+    "assets/fonts/INTER-OFL.txt",
+    "assets/fonts/GO-LICENSE.txt",
+    "assets/FONT-LICENSES.txt"
+  ],
+  "layout_fix": {
+    "file": "assets/stack.svg",
+    "change": "Moved the language / AI-data-infrastructure / web stack group upward by 24 SVG units.",
+    "purpose": "Keep all technology chips inside the rounded SVG frame.",
+    "last_chip_bottom": 415,
+    "svg_canvas_height": 420,
+    "within_canvas": true
+  }
+}
